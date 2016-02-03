@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AACC,0BAAa,GACZ,KAAK,ECFI,GAAG",
+"sources": ["../scss/_index.scss","../scss/_variable.scss"],
+"names": [],
+"file": "style.css"
+}

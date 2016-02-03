@@ -1,0 +1,1 @@
+appconfig = {"apiUrl":"http://uat.jhl.com/4531","setting":"開發環境[uat]"}
