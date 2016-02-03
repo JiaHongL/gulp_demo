@@ -54,14 +54,12 @@ gulp.task('compress', function() {
 
 //<--help-->
 gulp.task('help', function() {
-  console.log('[help] gulp merge         ------- 合併js檔案');
-  console.log('[help] gulp compress      ------- 壓縮js檔案');
   console.log('[help] gulp constants_dev ------- 產出開發環境所使用的「全域變數」');
   console.log('[help] gulp constants_pro ------- 產出正式環境所使用的「全域變數」');
   console.log('[help] gulp Dev           ------- 啟動開發環境[Web Server][localhost]');
   console.log('[help] gulp Pro           ------- 啟動正式環境[Web Server][localhost]');
-  console.log('[help] output_dev         ------- 輸出開發專案至output資料夾下');
-  console.log('[help] output_pro         ------- 輸出正式專案至output資料夾下');
+  console.log('[help] gulp output_dev    ------- 輸出開發專案至output資料夾下');
+  console.log('[help] gulp output_pro    ------- 輸出正式專案至output資料夾下');
 });
 
 //<---生成filename文件，存入string内容--->
@@ -123,4 +121,6 @@ gulp.task('output_dev',['constants_dev','copy']);
 // 輸出正式專案至output資料夾
 gulp.task('output_pro',['constants_pro','copy']);
 
+// 
+gulp.task('default',['constants_dev','Webserver','Compass','merge','compress','Watch']);
  
