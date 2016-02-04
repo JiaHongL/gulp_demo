@@ -1,7 +1,7 @@
 # gulp_demo
 <h3>一、使用步骤</h3>
 <h4>1.請先安裝node.js,gulp,LiveReload(chrome插件)</h4>
-<h4>2.接著安裝gulpfile.js檔所引用的模組</h4>
+<h4>2.如果沒安裝gulpfile.js檔裡所引用的模組,請在終端機下指令 npm install.</h4>
 <h4>3.開啟終端機到gulp_demo,打指令 gulp 啟動</h4>
 <h4>PS:打 gulp help 可以看有哪些task可以使用</h4>
 
