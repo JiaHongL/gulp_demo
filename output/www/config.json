@@ -1,0 +1,10 @@
+{
+  "development": {
+    "apiUrl":"http://uat.jhl.com/4531",
+    "setting":"開發環境[uat]"
+  },
+  "production": {
+    "apiUrl": "http://jhl.com/4531",
+    "setting":"正式環境"
+  }
+}
